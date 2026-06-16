@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: Playfair display;
+    font-family: "Playfair-Display";
 }
 nav{
     display: flex;
@@ -31,4 +31,34 @@ nav li:last-child a{
 }
 nav li:last-child a:hover{
     color: black;
+}
+.hero{
+    height: 90vh;
+    background: url(media/banner.png) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: rgb(139, 88, 0);
+}
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+.video-box video{
+    width: 100%;
+    border-radius: 15px;
 }
