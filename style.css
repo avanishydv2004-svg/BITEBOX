@@ -56,9 +56,65 @@ nav li:last-child a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    gap: 40px;
+    gap: 40px; 
 }
 .video-box video{
     width: 100%;
     border-radius: 15px;
+}
+.video-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.video-text p{
+    font-size: 18px;
+    color: rgb(219, 31, 21);
+}
+.video-text{
+    flex: 1;
+}
+.video-box{
+    flex: 1;
+}
+.about{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: antiquewhite;
+}
+.about h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(86, 32, 32);
+}
+.about p{
+    max-width: 7000px;
+    font-size: 18px;
+    color: rgb(6, 6, 73);
+    line-height: 1 5;
+}
+.card{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card button{
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.card button:hover{
+    background-color: brown;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
 }
