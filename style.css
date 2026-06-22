@@ -124,7 +124,6 @@ nav li:last-child a:hover{
     padding: 20px;
     background-color: antiquewhite;
     justify-content: center;
-    
 }
 .icon-box img{
     width: 70px;
@@ -149,7 +148,90 @@ nav li:last-child a:hover{
 .icon-box P:hover{
     color: red;
 }
-hearder {
+header {
     position: sticky;
     top: 0;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.cart{
+    width: 100%;
+    padding: 40px 0;
+}
+table{
+    width: 70%;
+    background-color: wheat;
+    border-radius: 10px;
+    position: sticky;
+    border-collapse: collapse;
+}
+thead{
+    background-color: red;
+    color: white;
+}
+th,td{
+    padding: 20px;
+    text-align: center;
+}
+tr{
+    border-bottom: 2px solid black;
+}
+.item h4{
+    margin-bottom: 15px;
+}
+.qty-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.qty-box button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.qty-box button:hover{
+    background-color: darkred;
+    color: aqua;
+}
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: darkred;
+    color: aqua;
+}
+.grand-total button{
+    background-color: red;
+    border: none;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+.grand-total button:hover{
+    background-color: darkred;
+    color: aqua;
+}
+.grand-total td{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px 30px;
 }
