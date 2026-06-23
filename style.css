@@ -235,3 +235,6 @@ tr{
     font-weight: bold;
     padding: 30px 30px;
 }
+.item img:hover{
+    transform: scale(1.2);
+}
