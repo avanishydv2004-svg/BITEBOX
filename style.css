@@ -151,6 +151,7 @@ nav li:last-child a:hover{
 header {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .item{
     display: flex;
@@ -286,4 +287,58 @@ tr{
 }
 .auth-box p{
     margin: 12px;
+}
+.deals-page {
+    padding: 40px;
+    background-color: rgb(243, 175, 175);
+}
+.deal-hero {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.deal-hero p{
+    font-size: 18px;
+}
+.combo-section{
+    padding: 40px;
+    background-color: rgb(251, 248, 248);
+}
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 10px;
+}
+.combo-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.combo-card{
+    background-color: rgb(209, 199, 199);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 10px;
+}
+.combo-card button{
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+.combo-card button:hover{
+    background-color: rgb(146, 206, 206);
+}
+.combo-card:hover{
+    transform: translateY(-8px);
 }
